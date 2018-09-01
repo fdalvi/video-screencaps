@@ -9,7 +9,7 @@ video_file=$1
 output_file_prefix=$2
 number_of_screenshots=5
 
-duration=`ffprobe -show_streams ${video_file} 2>&1 | grep "^duration=" | cut -d'=' -f2`
+duration=`ffprobe -show_streams ${video_file} 2>&1 | grep "^duration=" | cut -d'=' -f2 | head -1`
 seek_factor=`echo "scale=5; ($duration-0.1)/($number_of_screenshots-1)" | bc`
 
 echo "Video is ${duration} seconds long..."
