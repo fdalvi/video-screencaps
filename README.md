@@ -15,3 +15,5 @@ of the video at the top, and 4 smaller ones arranged in a grid below it.
 ![Sample Render](/docs/sample%20-%20500px.jpg?raw=true "Sample Render")
 
 </p>
+
+**Update (Nov 30, 2021):** There is an [updated script](https://github.com/rootwork/bash-scripts/blob/main/videos/vidcap.sh) by [@rootwork](https://github.com/rootwork) that has several more options and command line arguments for customization of the output. See [#1](https://github.com/fdalvi/video-screencaps/issues/1) for a summary.
